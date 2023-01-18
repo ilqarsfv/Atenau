@@ -128,7 +128,7 @@ $("#projects .owl-carousel").owlCarousel({
     nav: true,
     stagePadding: 108, 
     responsiveClass: true,
-    navText: ["<img src='/img/right.png' />", "<img src='/img/right.png' />"],
+    navText: ["<img src='img/right.png' />", "<img src='img/right.png' />"],
     dots: false,
     onDragged: callback,
     responsive: {
@@ -250,11 +250,11 @@ $("#language").click(()=>{
 $(window).scroll(function(){
   if($("body").scrollTop() > 720 || $("html").scrollTop() > 720) {
   $("header").addClass("stop");
-  $("header #logo img").attr("src", "/img/footer-logo.png")
+  $("header #logo img").attr("src", "img/footer-logo.png")
   console.log("kecdi");
   } else {
       $("header").removeClass("stop");
-      $("header #logo img").attr("src", "/img/logo.png")
+      $("header #logo img").attr("src", "img/logo.png")
   }
 });
 
