@@ -1,0 +1,15 @@
+@font-face {
+    font-family: okmedia-ExtraBold;
+    src: url(fonts/okmedia-Medium.woff) format('embedded-opentype'), url(/fonts/okmedia-Medium.woff) format('woff'), url(/fonts/okmedia-Medium.woff) format('truetype'), url(/fonts/okmedia-Medium.woff) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: okmedia-medium;
+    src: url(fonts/okmedia-Medium.woff) format('embedded-opentype'), url(/fonts/okmedia-Medium.woff) format('woff'), url(/fonts/okmedia-Medium.woff) format('truetype'), url(/fonts/okmedia-Medium.woff) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
